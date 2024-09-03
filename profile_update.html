@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Update Profile</h2>
+        <form id="profileUpdateForm" action="update_profile.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" required>
+        
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+        
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+        
+            <label for="sponsor_code">Sponsor Code:</label>
+            <input type="text" id="sponsor_code" name="sponsor_code">
+        
+            <button type="submit">Update Profile</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
